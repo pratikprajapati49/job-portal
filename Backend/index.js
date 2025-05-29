@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieparser());
 const corsOptions = {
-    origin:'https://job-portal-backend-hqjq.onrender.com',
+    origin:'https://localhost:3000',
     credentials:true
 }
 app.use(cors(corsOptions));
